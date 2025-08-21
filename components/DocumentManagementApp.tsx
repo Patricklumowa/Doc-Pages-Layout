@@ -341,7 +341,7 @@ const DocumentManagementApp = () => {
       >
         {/* Adicionar Button - Top Far Right */}
         <div className="absolute top-4 right-6 z-10">
-          <Button color="primary" startContent={<img src="/Plus-1.svg" alt="Plus" className="w-5 h-5" />} className="bg-blue-500 px-6 h-12 text-base">
+          <Button color="primary" startContent={<img src="/Plus.svg" alt="Plus" className="w-5 h-5" />} className="bg-blue-500 px-6 h-12 text-base">
             Adicionar
           </Button>
         </div>
