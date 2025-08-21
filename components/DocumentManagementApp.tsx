@@ -156,7 +156,7 @@ const DocumentManagementApp = () => {
               className="w-10 h-10 min-w-10 rounded"
               style={{ backgroundColor: 'rgba(228, 228, 231, 1)' }}
             >
-              <img src="/plus.svg" alt="Add" className="w-6 h-6" style={{filter: 'brightness(0) saturate(100%) invert(47%) sepia(6%) saturate(516%) hue-rotate(202deg) brightness(95%) contrast(85%)'}} />
+              <img src="/Plus-1.svg" alt="Add" className="w-6 h-6" style={{filter: 'brightness(0) saturate(100%) invert(47%) sepia(6%) saturate(516%) hue-rotate(202deg) brightness(95%) contrast(85%)'}} />
             </Button>
           </div>
         </div>
@@ -176,7 +176,7 @@ const DocumentManagementApp = () => {
 
           {/* Suas tarefas */}
           <div className="flex items-center p-2 text-base text-gray-700 hover:bg-gray-100 rounded-md cursor-pointer">
-            <img src="/checklist.svg" alt="Tarefas" className="w-6 h-6 mr-3" style={{filter: 'brightness(0) saturate(100%) invert(47%) sepia(6%) saturate(516%) hue-rotate(202deg) brightness(95%) contrast(85%)'}} />
+            <img src="/check.svg" alt="Tarefas" className="w-6 h-6 mr-3" style={{filter: 'brightness(0) saturate(100%) invert(47%) sepia(6%) saturate(516%) hue-rotate(202deg) brightness(95%) contrast(85%)'}} />
             Suas tarefas
           </div>
 
@@ -341,7 +341,7 @@ const DocumentManagementApp = () => {
       >
         {/* Adicionar Button - Top Far Right */}
         <div className="absolute top-4 right-6 z-10">
-          <Button color="primary" startContent={<img src="/plus.svg" alt="Plus" className="w-5 h-5" />} className="bg-blue-500 px-6 h-12 text-base">
+          <Button color="primary" startContent={<img src="/Plus-1.svg" alt="Plus" className="w-5 h-5" />} className="bg-blue-500 px-6 h-12 text-base">
             Adicionar
           </Button>
         </div>
